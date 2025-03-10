@@ -1,0 +1,11 @@
+
+{
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "ws": "^8.18.1"
+  }
+}
+
