@@ -1,6 +1,11 @@
 
 {
+  "name": "planning-poker-server",
+  "version": "1.0.0",
+  "description": "WebSocket server for Planning Poker",
+  "main": "websocket_server.js",
   "scripts": {
+    "start": "node server.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
